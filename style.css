@@ -53,7 +53,7 @@
 }
 
 .card .social img:hover{
-    background-color: #e709dc;
+    background-color:#ac5878;
 }
 
 .contact_button{
@@ -62,7 +62,7 @@
     font-size: 20px;
     font-weight: 700;
     background: #ffffff;
-    color: #e709dc;
+    color: #ac5878;
     padding: 10px 30px;
     border-radius: 30px;
     margin: 30px 0 10px;
