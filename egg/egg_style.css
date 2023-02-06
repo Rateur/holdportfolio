@@ -1,0 +1,21 @@
+* {
+    height: 100vh;
+}
+body{
+        height: 100%;
+    width: 100%;
+    background: #0b0112;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+p {
+    color: #fff;
+    text-shadow: 0 0 5px #fff;
+    font-size: 60px;
+    margin-bottom: 500px;
+    text-align: center;
+}
