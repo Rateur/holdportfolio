@@ -80,7 +80,7 @@
 
 body{
     background-image: url(media/background.jpg);
-    background-position: auto;
+    background-position: center;
     background-size: cover;
 }
 
