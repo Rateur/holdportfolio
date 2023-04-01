@@ -337,6 +337,11 @@ img {
   font-size: var(--smaller-font-size);
   transform: rotate(-90deg);
 }
+
+.home__typing{
+  color: var(--first-color);
+}
+
 /*=============== BUTTONS ===============*/
 .button{
   display: inline-block;
@@ -458,7 +463,7 @@ img {
 
 .skills__level{
   font-size: var(--tiny-font-size);
-  
+
 }
 /*=============== SERVICES ===============*/
 
