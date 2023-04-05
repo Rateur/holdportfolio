@@ -175,7 +175,7 @@ body.light-theme {
 }
 
 .light-theme .skills__content,
-.light-theme .services__card,
+.light-theme .veille__card,
 .light-theme .work__card,
 .light-theme .contact__card{
   box-shadow: 0 2px 16px hsla(var(--second-hue), 48%, 8%, .1);
@@ -538,25 +538,25 @@ body.light-theme {
 
 }
 
-/*=============== SERVICES ===============*/
-.services__container {
+/*=============== VEILLE ===============*/
+.veille__container {
   grid-template-columns: repeat(2, 1fr);
   gap: 1.5rem;
   padding-top: 1rem;
 }
 
-.services__card {
+.veille__card {
   background-color: var(--container-color);
   padding: 3rem 1.5rem 1.5rem;
   border-radius: 1rem;
 }
 
-.services__title {
+.veille__title {
   font-size: var(--h3-font-size);
   margin-bottom: 2.5rem;
 }
 
-.services__button {
+.veille__button {
   color: var(--first-color);
   font-size: var(--small-font-size);
   display: flex;
@@ -565,17 +565,17 @@ body.light-theme {
   cursor: pointer;
 }
 
-.services__button:hover .services__icon {
+.veille__button:hover .veille__icon {
   transform: translateX(.25rem);
 }
 
-.services__icon {
+.veille__icon {
   font-size: 1rem;
   transition: .4s;
 }
 
-/* Services modal */
-.services__modal {
+/* veille modal */
+.veille__modal {
   position: fixed;
   inset: 0;
   background-color: hsla(var(--second-hue), 28%, 16%, .7);
@@ -588,50 +588,50 @@ body.light-theme {
   z-index: var(--z-modal);
 }
 
-.services__modal-content {
+.veille__modal-content {
   position: relative;
   background-color: var(--body-color);
   padding: 4.5rem 1.5rem 2.5rem;
   border-radius: 1.5rem;
 }
 
-.services__modal-title,
-.services__modal-description {
+.veille__modal-title,
+.veille__modal-description {
   text-align: center;
 }
 
-.services__modal-title {
+.veille__modal-title {
   font-size: var(--h3-font-size);
   color: var(--first-color);
   margin-bottom: 1rem;
 }
 
-.services__modal-description {
+.veille__modal-description {
   font-size: var(--small-font-size);
   margin-bottom: 2rem;
 }
 
-.services__modal-list {
+.veille__modal-list {
   display: grid;
   row-gap: .75rem;
 }
 
-.services__modal-item {
+.veille__modal-item {
   display: flex;
   align-items: flex-start;
   column-gap: .5rem;
 }
 
-.services__modal-icon {
+.veille__modal-icon {
   font-size: 1.25rem;
   color: var(--first-color);
 }
 
-.services__modal-info {
+.veille__modal-info {
   font-size: var(--small-font-size);
 }
 
-.services__modal-close {
+.veille__modal-close {
   position: absolute;
   top: 1.5rem;
   right: 1.5rem;
@@ -913,7 +913,7 @@ body.light-theme {
   font-size: var(--small-font-size);
 }
 
-.services__container{
+.veille__container{
   grid-template-columns: 145px;
   justify-content: center;
 }
@@ -953,15 +953,15 @@ body.light-theme {
     padding: 2rem 4rem;
   }
 
-  .services__container{
+  .veille__container{
     grid-template-columns: repeat(2, 160px);
     justify-content: center;
   }
- .services__modal-content{
+ .veille__modal-content{
   width: 500px;
   padding: 4.5rem 2.5rem 2.5rem;
  } 
- .services__modal-description{
+ .veille__modal-description{
   padding: 0 3.5rem;
  }
 
@@ -1062,11 +1062,11 @@ body.light-theme {
     grid-template-columns: repeat(2, 350px);
   }
 
-  .services__container{
+  .veille__container{
     grid-template-columns: repeat(3, 192px);
     column-gap: 3rem;
   }
-  .services__card{
+  .veille__card{
     padding: 5rem 2rem 1.5rem;
   }
 

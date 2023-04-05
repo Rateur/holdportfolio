@@ -6,10 +6,10 @@ function scrollHeader() {
 }
 window.addEventListener('scroll', scrollHeader)
 
-/*=============== SERVICES MODAL ===============*/
-const modalViews = document.querySelectorAll('.services__modal'),
-    modalBtns = document.querySelectorAll('.services__button'),
-    modalCloses = document.querySelectorAll('.services__modal-close')
+/*=============== VEILLE MODAL ===============*/
+const modalViews = document.querySelectorAll('.veille__modal'),
+    modalBtns = document.querySelectorAll('.veille__button'),
+    modalCloses = document.querySelectorAll('.veille__modal-close')
 
 let modal = function(modalClick) {
     modalViews[modalClick].classList.add('active-modal')
