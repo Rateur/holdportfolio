@@ -1,6 +1,6 @@
 # Portfolio BTS SIO - Les Chassagnes
 
-### Portfolio accessible au lien: https://www.valentinperies.fr](https://holdportfolio-valentinperies.netlify.app
+### Portfolio accessible au lien: [https://www.valentinperies.fr](https://holdportfolio-valentinperies.netlify.app](https://holdportfolio-valentinperies.netlify.app/)
 
 - Ce projet a été réalisé dans le cadre de l'épreuve orale E6 du BTS Services informatiques aux organisations.
 
